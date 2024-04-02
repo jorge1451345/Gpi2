@@ -1,6 +1,7 @@
-# Nombre del Proyecto
+# UNIADAPTIVE
 
-Descripción breve del proyecto.
+
+El proyecto UNIADAPTIVE es una plataforma educativa adaptativa que tiene como objetivo proporcionar experiencias de aprendizaje personalizadas y eficientes para estudiantes de diferentes niveles y contextos educativos. La plataforma se centra en la adaptación del contenido, la secuenciación de actividades y la retroalimentación según las necesidades y el progreso de cada estudiante.
 
 ## Política de Commits
 
