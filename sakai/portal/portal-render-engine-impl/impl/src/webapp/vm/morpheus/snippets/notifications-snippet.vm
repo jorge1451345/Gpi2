@@ -1,0 +1,11 @@
+#if (${useBullhornAlerts} && ${userIsLoggedIn})
+<aside class="offcanvas offcanvas-end" tabindex="-1" id="sakai-notificationsPanel" aria-labelledby="sakai-notificationsPanelLabel">
+  <div class="offcanvas-header">
+    <h2 class="offcanvas-title" id="sakai-notificationsPanelLabel">Notifications</h2>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close this notifications panel"></button>
+  </div>
+  <div class="offcanvas-body">
+    <sakai-notifications url="/direct/portal/notifications.json" user-id="$!{userId}"></sakai-notifications>
+  </div>
+</aside>
+#end
