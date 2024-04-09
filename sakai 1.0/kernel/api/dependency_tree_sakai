@@ -1,0 +1,81 @@
+org.sakaiproject.kernel:sakai-kernel-api:jar:25-SNAPSHOT
++- javax.servlet:javax.servlet-api:jar:4.0.1:provided
++- commons-fileupload:commons-fileupload:jar:1.5:provided
+|  \- commons-io:commons-io:jar:2.15.1:provided
++- org.apache.commons:commons-collections4:jar:4.4:provided
++- commons-codec:commons-codec:jar:1.16.1:provided
++- com.zaxxer:HikariCP:jar:5.0.1:provided
++- com.sun.mail:jakarta.mail:jar:1.6.7:provided
+|  \- com.sun.activation:jakarta.activation:jar:1.2.2:provided
++- org.sakaiproject.kernel:sakai-component-manager:jar:25-SNAPSHOT:provided
++- org.springframework:spring-core:jar:5.3.32:provided
+|  \- org.springframework:spring-jcl:jar:5.3.32:provided
++- org.springframework:spring-web:jar:5.3.32:provided
++- org.springframework.data:spring-data-jpa:jar:2.5.12:provided
+|  \- org.aspectj:aspectjrt:jar:1.9.7:provided
++- org.springframework:spring-context-support:jar:5.3.32:provided
++- org.hibernate:hibernate-core:jar:5.6.15.Final:provided
+|  +- org.jboss.logging:jboss-logging:jar:3.4.3.Final:provided
+|  +- javax.persistence:javax.persistence-api:jar:2.2:provided
+|  +- net.bytebuddy:byte-buddy:jar:1.14.3:provided
+|  +- antlr:antlr:jar:2.7.7:provided
+|  +- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.1.1.Final:provided
+|  +- org.jboss:jandex:jar:2.4.3.Final:provided
+|  +- com.fasterxml:classmate:jar:1.5.1:provided
+|  +- javax.activation:javax.activation-api:jar:1.2.0:provided
+|  +- org.hibernate.common:hibernate-commons-annotations:jar:5.1.2.Final:provided
+|  +- javax.xml.bind:jaxb-api:jar:2.3.1:provided
+|  \- org.glassfish.jaxb:jaxb-runtime:jar:2.3.6:provided
+|     +- jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:provided
+|     +- org.glassfish.jaxb:txw2:jar:2.3.6:provided
+|     \- com.sun.istack:istack-commons-runtime:jar:3.0.11:provided
++- org.mockito:mockito-core:jar:3.11.2:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.11.3:test
+|  \- org.objenesis:objenesis:jar:3.2:test
++- org.springframework:spring-test:jar:5.3.32:test
++- org.powermock:powermock-module-junit4:jar:2.0.9:test
+|  +- org.powermock:powermock-module-junit4-common:jar:2.0.9:test
+|  |  +- org.powermock:powermock-reflect:jar:2.0.9:test
+|  |  \- org.powermock:powermock-core:jar:2.0.9:test
+|  |     \- org.javassist:javassist:jar:3.27.0-GA:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.powermock:powermock-api-mockito2:jar:2.0.9:test
+|  \- org.powermock:powermock-api-support:jar:2.0.9:test
++- org.apache.commons:commons-lang3:jar:3.14.0:provided
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.16.1:provided
++- com.fasterxml.jackson.core:jackson-core:jar:2.16.1:provided
++- com.fasterxml.jackson.core:jackson-databind:jar:2.16.1:provided
++- org.simpleframework:simple-xml:jar:2.7.1:provided
+|  +- stax:stax-api:jar:1.0.1:provided
+|  +- stax:stax:jar:1.2.0:provided
+|  \- xpp3:xpp3:jar:1.1.3.3:provided
++- net.sf.ehcache:ehcache-core:jar:2.6.11:provided
++- commons-net:commons-net:jar:3.10.0:provided
++- org.hibernate:hibernate-entitymanager:jar:5.6.15.Final:provided
++- org.apache.ignite:ignite-hibernate-ext:jar:5.3.0:provided
+|  \- org.apache.ignite:ignite-core:jar:2.15.0:provided
+|     +- javax.cache:cache-api:jar:1.1.1:provided
+|     \- org.jetbrains:annotations:jar:16.0.3:provided
++- org.springframework:spring-aop:jar:5.3.32:provided
++- org.springframework:spring-beans:jar:5.3.32:provided
++- org.springframework:spring-context:jar:5.3.32:provided
+|  \- org.springframework:spring-expression:jar:5.3.32:provided
++- org.springframework:spring-orm:jar:5.3.32:provided
+|  \- org.springframework:spring-jdbc:jar:5.3.32:provided
++- org.springframework:spring-tx:jar:5.3.32:provided
++- org.springframework.data:spring-data-commons:jar:2.5.12:provided
++- com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.16.1:provided
+|  \- org.codehaus.woodstox:stax2-api:jar:4.2.1:provided
++- com.fasterxml.woodstox:woodstox-core:jar:6.6.0:provided
++- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.16.1:provided
++- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.16.1:provided
++- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.16.1:provided
++- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:provided
++- jakarta.activation:jakarta.activation-api:jar:1.2.2:provided
++- org.slf4j:slf4j-api:jar:1.7.36:provided
++- org.apache.logging.log4j:log4j-api:jar:2.23.0:provided
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.23.0:provided
++- org.slf4j:jcl-over-slf4j:jar:1.7.36:provided
++- org.apache.logging.log4j:log4j-core:jar:2.23.0:provided
++- org.projectlombok:lombok:jar:1.18.32:provided
+\- junit:junit:jar:4.13.2:test
