@@ -1,0 +1,19 @@
+# Licencias de Componentes
+
+## Apache Commons
+- [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+## Spring Framework
+- [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+## Hibernate
+- [GNU Lesser General Public License (LGPL)](https://www.gnu.org/licenses/lgpl-3.0.html)
+
+## Log4j
+- [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+## Servlet API
+- [CDDL License](https://opensource.org/licenses/CDDL-1.0)
+
+## SLF4J
+- [MIT License](https://opensource.org/licenses/MIT)
