@@ -1,0 +1,16 @@
+version: "3"
+services:
+  sonarqube:
+    image: sonarqube:latest
+    container_name: sonarqube
+    ports:
+      - "9000:9000"
+    environment:
+      - SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true
+
+  maven-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - sonarqube
